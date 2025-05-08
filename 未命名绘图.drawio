@@ -40,7 +40,7 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZrctKfGTnT29_ICG_vk-10" target="LZrctKfGTnT29_ICG_vk-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-10" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-10" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="227" y="273" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-14" value="connector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -49,7 +49,7 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-15" value="audio encoder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="228" y="370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-16" value="text embedding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-16" value="text embedding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="295" y="344" width="62" height="34" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-20" value="connector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -97,7 +97,7 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZrctKfGTnT29_ICG_vk-46" target="LZrctKfGTnT29_ICG_vk-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-46" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-46" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=light-dark(#fff2cc, #EDEDED);gradientDirection=radial;" vertex="1" parent="1">
           <mxGeometry x="408" y="273" width="131" height="62" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-47" value="b) Modular MLLMs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -115,7 +115,7 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-105" value="Audio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="408" y="422" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-109" value="text embedding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-109" value="text embedding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="478" y="346" width="63" height="32" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZrctKfGTnT29_ICG_vk-110" target="LZrctKfGTnT29_ICG_vk-109">
@@ -139,7 +139,7 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZrctKfGTnT29_ICG_vk-121" target="LZrctKfGTnT29_ICG_vk-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-121" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-121" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;align=right;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="566.5" y="273" width="131" height="62" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-122" value="connector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -154,7 +154,7 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-126" value="Audio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="565" y="422" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-129" value="text embedding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-129" value="text embedding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="637.5" y="346" width="60.5" height="32" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZrctKfGTnT29_ICG_vk-131" target="LZrctKfGTnT29_ICG_vk-129">
@@ -169,14 +169,14 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-133" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="632" y="224" width="60" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-134" value="Audio Experts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-134" value="Acoustical&amp;nbsp;&lt;br&gt;Experts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="573.88" y="286.25" width="87.75" height="33.5" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-135" value="Mini-Omni,Moshi,GLM-4-Voice,LUCY,..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="408" y="450" width="130" height="51" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-136" value="DeepTalk&lt;br&gt;(ours)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="598" y="448.5" width="78" height="53.5" as="geometry" />
+          <mxGeometry x="598" y="450" width="78" height="52" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-137" value="Traditional Speech Interaction System" style="rounded=0;whiteSpace=wrap;html=1;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="56" y="451" width="110" height="49" as="geometry" />
