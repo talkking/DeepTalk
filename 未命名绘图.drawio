@@ -31,7 +31,7 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-7" value="Audio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="83" y="167.5" width="60" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-8" value="Qwen2.5-Omni,VITA-1.5, LLaMA-Omni,Freeze-Omni,..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-8" value="Qwen2.5-Omni,VITA-1.5, LLaMA-Omni,Freeze-Omni,..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;shadow=1;gradientColor=none;glass=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="452" width="127" height="47" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-9" value="a) Cascade System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -164,7 +164,7 @@
           <mxGeometry x="640" y="422.75" width="55" height="22" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-132" value="Audio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="565" y="223" width="60" height="30" as="geometry" />
+          <mxGeometry x="565" y="223" width="59" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-133" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="632" y="224" width="60" height="24" as="geometry" />
@@ -172,13 +172,13 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-134" value="Acoustical&amp;nbsp;&lt;br&gt;Experts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="573.88" y="286.25" width="87.75" height="33.5" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-135" value="Mini-Omni,Moshi,GLM-4-Voice,LUCY,..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-135" value="Mini-Omni,Moshi,GLM-4-Voice,LUCY,..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;glass=1;" vertex="1" parent="1">
           <mxGeometry x="408" y="450" width="130" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-136" value="DeepTalk&lt;br&gt;(ours)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-136" value="DeepTalk&lt;br&gt;(ours)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;shadow=1;glass=1;" vertex="1" parent="1">
           <mxGeometry x="593" y="451" width="78" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-137" value="Traditional Speech Interaction System" style="rounded=0;whiteSpace=wrap;html=1;gradientDirection=north;" vertex="1" parent="1">
+        <mxCell id="LZrctKfGTnT29_ICG_vk-137" value="Traditional Speech Interaction System" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=north;shadow=1;strokeColor=none;glass=1;" vertex="1" parent="1">
           <mxGeometry x="56" y="451" width="110" height="49" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-138" value="acoustical decoding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
