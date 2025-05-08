@@ -101,7 +101,7 @@
           <mxGeometry x="408" y="273" width="131" height="62" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-47" value="b) Modular MLLMs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="253" y="515" width="60" height="30" as="geometry" />
+          <mxGeometry x="258.5" y="520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-103" value="connector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="408" y="344" width="60" height="20" as="geometry" />
@@ -131,7 +131,7 @@
           <mxGeometry x="475" y="221" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-117" value="c) Native MLLMs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="525" y="515" width="60" height="30" as="geometry" />
+          <mxGeometry x="529" y="520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZrctKfGTnT29_ICG_vk-121" target="LZrctKfGTnT29_ICG_vk-132">
           <mxGeometry relative="1" as="geometry" />
