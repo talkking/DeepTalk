@@ -31,8 +31,8 @@
         <mxCell id="LZrctKfGTnT29_ICG_vk-7" value="Audio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="83" y="167.5" width="60" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="LZrctKfGTnT29_ICG_vk-8" value="Qwen2.5-Omni,VITA-1.5, LLaMA-Omni,Freeze-Omni,..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;shadow=1;gradientColor=none;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="225" y="452" width="127" height="47" as="geometry" />
+        <mxCell id="LZrctKfGTnT29_ICG_vk-8" value="Qwen2.5-Omni,Minmo,VITA-1.5, LLaMA-Omni,Freeze-Omni,..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;shadow=1;gradientColor=none;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="225" y="453" width="136" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-9" value="a) Cascade System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="515" width="100" height="40" as="geometry" />
