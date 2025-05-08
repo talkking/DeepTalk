@@ -182,10 +182,10 @@
           <mxGeometry x="56" y="451" width="110" height="49" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-138" value="acoustical decoding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="430" y="176" width="86" height="25" as="geometry" />
+          <mxGeometry x="430" y="176" width="86" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-139" value="textual decoding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="585" y="176" width="86" height="25" as="geometry" />
+          <mxGeometry x="585" y="176" width="89" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LZrctKfGTnT29_ICG_vk-26" target="LZrctKfGTnT29_ICG_vk-26">
           <mxGeometry relative="1" as="geometry" />
