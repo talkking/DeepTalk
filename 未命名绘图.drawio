@@ -32,7 +32,7 @@
           <mxGeometry x="83" y="167.5" width="60" height="23.5" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-8" value="Qwen2.5-Omni,Minmo,VITA-1.5, LLaMA-Omni,Freeze-Omni,..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;shadow=1;gradientColor=none;glass=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="221" y="448.5" width="128" height="43.5" as="geometry" />
+          <mxGeometry x="207" y="452.25" width="153" height="35.75" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-9" value="a) Cascaded System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="60" y="492" width="100" height="40" as="geometry" />
@@ -172,13 +172,13 @@
           <mxGeometry x="573.88" y="286.25" width="87.75" height="33.5" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-135" value="Mini-Omni,Moshi,GLM-4-Voice,LUCY,..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;glass=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="414" y="452.25" width="108" height="33.75" as="geometry" />
+          <mxGeometry x="414" y="452.25" width="112" height="35.75" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-136" value="DeepTalk&lt;br&gt;(O&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;urs)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;shadow=1;glass=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="597.13" y="452.25" width="64.5" height="33.75" as="geometry" />
+          <mxGeometry x="597.13" y="452.25" width="67.87" height="35.75" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-137" value="Traditional Speech Interaction System" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=north;shadow=1;strokeColor=none;glass=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="56" y="451" width="97" height="37" as="geometry" />
+          <mxGeometry x="41" y="456" width="124" height="32" as="geometry" />
         </mxCell>
         <mxCell id="LZrctKfGTnT29_ICG_vk-138" value="acoustical decoding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="430" y="176" width="86" height="29" as="geometry" />
