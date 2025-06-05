@@ -1,69 +1,11 @@
 absl-py==1.4.0
-accelerate==0.34.0
-aiohttp @ file:///rapids/aiohttp-3.8.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-aiosignal @ file:///rapids/aiosignal-1.3.1-py3-none-any.whl
-aliyun-python-sdk-core==2.16.0
-aliyun-python-sdk-kms==2.16.5
-annotated-types==0.7.0
-antlr4-python3-runtime==4.9.3
+accelerate==1.0.1
 apex==0.1
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-asttokens==2.2.1
-astunparse==1.6.3
-async-timeout @ file:///rapids/async_timeout-4.0.2-py3-none-any.whl
-attrs==22.2.0
-audioread==3.0.0
-backcall==0.2.0
-bcrypt==4.0.1
-beautifulsoup4==4.12.2
-bitsandbytes==0.41.1
-bleach==6.0.0
-blis==0.7.9
-cachetools==5.3.0
-catalogue==2.0.8
-certifi==2022.12.7
-cffi==1.15.1
-cfgv==3.3.1
-charset-normalizer==3.1.0
-click==8.1.8
-cloudpickle @ file:///rapids/cloudpickle-2.2.1-py3-none-any.whl
-cmake==3.24.1.1
-colorama==0.4.6
-colossalai==0.3.0
-comm==0.1.3
-confection==0.0.4
-contexttimer==0.3.3
-contourpy==1.0.7
-cos-python-sdk-v5==1.9.36
-coscmd==1.9.0.5
-crcmod==1.7
-cryptography==41.0.1
-cubinlinker @ file:///rapids/cubinlinker-0.2.2%2B2.g5f51201-cp38-cp38-linux_x86_64.whl
-cuda-python @ file:///rapids/cuda_python-12.1.0rc5%2B1.g808384c-cp38-cp38-linux_x86_64.whl
-cudf @ file:///rapids/cudf-23.2.0-cp38-cp38-linux_x86_64.whl
-cugraph @ file:///rapids/cugraph-23.2.0-cp38-cp38-linux_x86_64.whl
-cugraph-dgl @ file:///rapids/cugraph_dgl-23.2.0-py3-none-any.whl
-cugraph-service-client @ file:///rapids/cugraph_service_client-23.2.0-py3-none-any.whl
-cugraph-service-server @ file:///rapids/cugraph_service_server-23.2.0-py3-none-any.whl
-cuml @ file:///rapids/cuml-23.2.0-cp38-cp38-linux_x86_64.whl
-cupy-cuda12x @ file:///rapids/cupy_cuda12x-12.0.0b3-cp38-cp38-linux_x86_64.whl
-cycler==0.11.0
-cymem==2.0.7
-Cython==0.29.34
-dask @ file:///rapids/dask-2023.1.1-py3-none-any.whl
-dask-cuda @ file:///rapids/dask_cuda-23.2.0-py3-none-any.whl
-dask-cudf @ file:///rapids/dask_cudf-23.2.0-py3-none-any.whl
 datasets==2.12.0
 DateTime==5.5
 debugpy==1.6.7
 decorator==5.1.1
 deepspeed==0.15.1
-defusedxml==0.7.1
-dill==0.3.6
-distlib==0.3.6
-distributed @ file:///rapids/distributed-2023.1.1-py3-none-any.whl
-dropout-layer-norm @ file:///tmp/flash-attention/csrc/layer_norm
 editdistance==0.8.1
 einops==0.6.1
 evaluate==0.4.0
@@ -73,7 +15,6 @@ executing==1.2.0
 expecttest==0.1.3
 fabric==3.1.0
 fastjsonschema==2.16.3
-fastrlock @ file:///rapids/fastrlock-0.8.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_24_x86_64.whl
 filelock==3.11.0
 flash-attn==2.6.1
 fonttools==4.39.3
@@ -86,7 +27,6 @@ google-auth==2.17.3
 google-auth-oauthlib==0.4.6
 graphsurgeon
 grpcio==1.53.0
-HeapDict @ file:///rapids/HeapDict-1.0.1-py3-none-any.whl
 hjson==3.1.0
 huggingface-hub==0.30.2
 hydra-core==1.3.2
@@ -124,7 +64,6 @@ langcodes==3.3.0
 librosa==0.9.2
 lit==16.0.1
 llvmlite==0.39.1
-locket @ file:///rapids/locket-1.0.0-py2.py3-none-any.whl
 lxml==4.9.2
 Markdown==3.4.3
 markdown-it-py==2.2.0
@@ -140,8 +79,6 @@ mkl-include==2021.1.1
 mock==5.0.1
 modelscope==1.25.0
 mpmath==1.3.0
-msgpack @ file:///rapids/msgpack-1.0.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-multidict @ file:///rapids/multidict-6.0.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 multiprocess==0.70.14
 murmurhash==1.0.9
 nbclient==0.7.3
@@ -152,7 +89,6 @@ networkx==2.6.3
 ninja==1.11.1
 nodeenv==1.8.0
 notebook==6.4.10
-numba @ file:///rapids/numba-0.56.4%2B1.g536eedd6e-cp38-cp38-linux_x86_64.whl
 numpy==1.22.2
 nvidia-cublas-cu12==12.1.3.1
 nvidia-cuda-cupti-cu12==12.1.105
@@ -169,26 +105,25 @@ nvidia-nccl-cu12==2.20.5
 nvidia-nvjitlink-cu12==12.8.93
 nvidia-nvtx-cu12==12.1.105
 nvidia-pyindex==1.0.9
-nvtx @ file:///rapids/nvtx-0.2.5-cp38-cp38-linux_x86_64.whl
 oauthlib==3.2.2
 omegaconf==2.3.0
-onnx @ file:///opt/pytorch/pytorch/third_party/onnx
-opencv @ file:///opencv-4.6.0/modules/python/package
+onnx 
+opencv 
 oss2==2.19.1
-packaging @ file:///rapids/packaging-23.0-py3-none-any.whl
-pandas @ file:///rapids/pandas-1.5.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+packaging 
+pandas 
 pandocfilters==1.5.0
 paramiko==3.2.0
 parso==0.8.3
-partd @ file:///rapids/partd-1.3.0-py3-none-any.whl
+partd 
 pathy==0.10.1
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow @ file:///tmp/pillow-simd
+Pillow
 pkgutil_resolve_name==1.3.10
 platformdirs==3.2.0
 pluggy==1.0.0
-ply @ file:///rapids/ply-3.11-py2.py3-none-any.whl
+ply 
 polygraphy==0.46.2
 pooch==1.7.0
 portalocker==2.7.0
@@ -199,26 +134,25 @@ prometheus-client==0.16.0
 prompt-toolkit==3.0.38
 protobuf==3.20.3
 psutil==5.9.4
-ptxcompiler @ file:///rapids/ptxcompiler-0.7.0%2B27.gb446f00-cp38-cp38-linux_x86_64.whl
+ptxcompiler
 ptyprocess==0.7.0
 pure-eval==0.2.2
 py-cpuinfo==9.0.0
-pyarrow @ file:///rapids/pyarrow-10.0.1.dev0%2Bga6eabc2b.d20230410-cp38-cp38-linux_x86_64.whl
+pyarrow 
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pybind11==2.10.4
-pycocotools @ git+https://github.com/nvidia/cocoapi.git@8b8fd68576675c3ee77402e61672d65a7d826ddf#subdirectory=PythonAPI
+pycocotools 
 pycparser==2.21
 pycryptodome==3.22.0
 pydantic==2.10.6
 pydantic_core==2.27.2
 Pygments==2.15.0
-pylibcugraph @ file:///rapids/pylibcugraph-23.2.0-cp38-cp38-linux_x86_64.whl
-pylibcugraphops @ file:///rapids/pylibcugraphops-23.2.0-cp38-cp38-linux_x86_64.whl
-pylibraft @ file:///rapids/pylibraft-23.2.0-cp38-cp38-linux_x86_64.whl
+pylibcugraph 
+pylibcugraphops
 PyNaCl==1.5.0
 pynndescent==0.5.13
-pynvml @ file:///rapids/pynvml-11.4.1-py3-none-any.whl
+pynvml
 pyparsing==3.0.9
 pyrsistent==0.19.3
 pytest==7.3.1
@@ -229,10 +163,10 @@ python-dateutil==2.8.2
 python-hostlist==1.23.0
 pytorch-quantization==2.1.2
 pytorch-wpe==0.0.1
-pytz @ file:///rapids/pytz-2023.3-py2.py3-none-any.whl
+pytz 
 PyYAML==6.0
 pyzmq==25.0.2
-raft-dask @ file:///rapids/raft_dask-23.2.0-cp38-cp38-linux_x86_64.whl
+raft-dask 
 rapidfuzz==3.9.7
 regex==2023.3.23
 requests==2.28.2
@@ -240,13 +174,13 @@ requests-oauthlib==1.3.1
 resampy==0.4.2
 responses==0.18.0
 rich==13.4.2
-rmm @ file:///rapids/rmm-23.2.0-cp38-cp38-linux_x86_64.whl
+rmm 
 rsa==4.9
 sacrebleu==2.3.1
 safetensors==0.5.3
-scikit-learn @ file:///rapids/scikit_learn-1.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-scipy @ file:///rapids/scipy-1.10.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-seaborn @ file:///rapids/seaborn-0.12.2-py3-none-any.whl
+scikit-learn 
+scipy 
+seaborn 
 Send2Trash==1.8.0
 sentencepiece==0.1.99
 six==1.16.0
@@ -261,46 +195,46 @@ spacy-loggers==1.0.4
 sphinx-glpi-theme==0.3
 srsly==2.4.6
 stack-data==0.6.2
-strings-udf @ file:///rapids/strings_udf-23.2.0-cp38-cp38-linux_x86_64.whl
+strings-udf 
 sympy==1.11.1
 tabulate==0.9.0
 tbb==2021.9.0
-tblib @ file:///rapids/tblib-1.7.0-py2.py3-none-any.whl
+tblib
 tensorboard==2.9.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorboardX==2.6.2.2
-tensorrt @ file:///workspace/TensorRT-8.6.1.2/python/tensorrt-8.6.1-cp38-none-linux_x86_64.whl
+tensorrt
 terminado==0.17.1
 thinc==8.1.9
 threadpoolctl==3.1.0
-thriftpy2 @ file:///rapids/thriftpy2-0.4.16-cp38-cp38-linux_x86_64.whl
+thriftpy2 
 tilearn-llm==0.7.2
-tilearn.ops @ file:///tmp/tilearn.ops-0.1.5.dev0%2Bga9b9b90.d20231206-cp38-cp38-linux_x86_64.whl#sha256=b98c0c27d63efdce25d54063b13205b01d31372b70c481fc151381e4db52df40
+tilearn.ops 
 timm==1.0.15
 tinycss2==1.2.1
 tokenizers==0.20.3
 toml==0.10.2
 tomli==2.0.1
-toolz @ file:///rapids/toolz-0.12.0-py3-none-any.whl
+toolz 
 torch==2.4.1
 torch-complex==0.4.4
-torch-tensorrt @ file:///opt/pytorch/torch_tensorrt/py/dist/torch_tensorrt-1.4.0.dev0-cp38-cp38-linux_x86_64.whl
+torch-tensorrt 
 torchaudio==2.4.1
-torchtext @ git+https://github.com/pytorch/text@fae8e8cabf7adcbbc2f09c0520216288fd53f33b
+torchtext 
 torchvision==0.19.1
 tornado==6.2
 tqdm==4.65.0
 traitlets==5.9.0
 transformers==4.46.3
-treelite @ file:///rapids/treelite-3.1.0-cp38-cp38-linux_x86_64.whl
-treelite-runtime @ file:///rapids/treelite_runtime-3.1.0-cp38-cp38-linux_x86_64.whl
+treelite 
+treelite-runtime 
 triton==3.0.0
 typer==0.7.0
 types-dataclasses==0.6.6
 typing_extensions==4.13.2
-ucx-py @ file:///rapids/ucx_py-0.30.0-cp38-cp38-linux_x86_64.whl
-uff @ file:///workspace/TensorRT-8.6.1.2/uff/uff-0.6.9-py2.py3-none-any.whl
+ucx-py 
+uff 
 umap-learn==0.5.7
 urllib3==1.26.15
 virtualenv==20.23.0
@@ -311,12 +245,12 @@ Werkzeug==2.2.3
 word2number==1.1
 xdoctest==1.0.2
 xformers==0.0.28.post1
-xgboost @ file:///rapids/xgboost-1.7.1-cp38-cp38-linux_x86_64.whl
+xgboost 
 xmltodict==0.14.2
 xxhash==3.2.0
-yarl @ file:///rapids/yarl-1.8.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+yarl 
 zhconv==1.4.3
 zhon==2.0.2
-zict @ file:///rapids/zict-2.2.0-py2.py3-none-any.whl
+zict 
 zipp==3.15.0
 zope.interface==7.2

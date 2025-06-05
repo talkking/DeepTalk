@@ -1,0 +1,8 @@
+funasr
+zhconv
+modelscope
+librosa
+torch
+torchaudio
+zhon
+jiwer

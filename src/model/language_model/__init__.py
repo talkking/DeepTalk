@@ -1,0 +1,3 @@
+from .puremoe import VITADeepseekV2ForCausalLM, VITADeepseekV2Config
+from .moextend import MoextendDeepseekV2ForCausalLM, MoextendDeepseekV2Config
+from .deeptalk import LUCYDeepseekV2ForCausalLM, LUCYDeepseekV2Config

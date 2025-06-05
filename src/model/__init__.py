@@ -1,0 +1,3 @@
+from .language_model import VITADeepseekV2ForCausalLM, VITADeepseekV2Config
+from .language_model import LUCYDeepseekV2ForCausalLM, LUCYDeepseekV2Config
+from .language_model import MoextendDeepseekV2ForCausalLM, MoextendDeepseekV2Config
