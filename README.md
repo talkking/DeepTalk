@@ -1,1 +1,1 @@
-# [NIPS2025] offical implementation of DeepTalk
+[NIPS2025] offical implementation of DeepTalk
