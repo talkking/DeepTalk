@@ -1,4 +1,4 @@
-# <img src="assets/deeptalk.png" width="3%" height="3%">DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE
+# <img src="assets/deeptalk.png" width="5%" height="5%">DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE
 
 
 
