@@ -30,8 +30,8 @@
 ## ✨ Highlights
 
 - **High IQ, high EQ** Solving the native multimodal catastrophic forgetting problem
-- **New Architecture** First model for end-to-end voice interaction based on MoE architecture
-- **Low Latency** 
+- **New Architecture** The first model for end-to-end voice interaction based on MoE architecture
+- **Low Latency** Based on the MoE architecture, since the activation parameter is only 2.4B which is much lower than other 7B dense models, and we adopt the modeling method of parallel generation of speech-text, the inference delay will be greatly reduced, and the delay of the most end-to-end speech interactions is within 500ms.
   
 
 
