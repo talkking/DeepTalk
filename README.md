@@ -29,9 +29,9 @@
 
 ## ✨ Highlights
 
-- **High IQ, high EQ**Solving the Native Multimodal Catastrophic Forgetting Problem
-- **First model for end-to-end voice interaction based on MoE architecture**
-- **Low Latency**
+- **High IQ, high EQ** Solving the native multimodal catastrophic forgetting problem
+- **New Architecture** First model for end-to-end voice interaction based on MoE architecture
+- **Low Latency** 
   
 
 
