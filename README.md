@@ -29,10 +29,9 @@
 
 ## ✨ Highlights
 
-- **Low Latency**. VITA-Audio is the first end-to-end speech model capable of generating audio during the initial forward pass. By utilizing a set of 32 prefill tokens, VITA-Audio reduces the time required to generate the first audio token chunk from 236 ms to just 53 ms.
-- **Fast Inference**. VITA-Audio achieves an inference speedup of 3-5x at the 7B parameter scale.
-- **Open Source**. VITA-Audio is trained on **open-source data** only, consisting of 200k hours of publicly available audio.
-- **Strong Performance**. VITA-Audio achieves competitive results on ASR,TTS and SQA benchmarks among cutting-edge models under 7B parameters.
+- **High IQ, high EQ**Solving the Native Multimodal Catastrophic Forgetting Problem
+- **First model for end-to-end voice interaction based on MoE architecture**
+- **Low Latency**
   
 
 
