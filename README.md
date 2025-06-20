@@ -19,7 +19,6 @@
 
 
 - [Highlights](#-highlights)
-- [Exhibition](#-exhibition)
 - [Models](#-models)
 - [Experimental Results](#-experimental-results)
 - [Training](#-training)
@@ -29,69 +28,10 @@
 
 ## ✨ Highlights
 
-- **High IQ, high EQ** Solving the native multimodal catastrophic forgetting problem
-- **New Architecture** The first model for end-to-end voice interaction based on MoE architecture
+- **High IQ, high EQ** Solves the catastrophic forgetting problem of native multimodality. Maximizes the language generalization capabilities of the original text LLM.
+- **New Architecture** The first model for end-to-end voice interaction based on MoE architecture.
 - **Low Latency** Based on the MoE architecture, since the activation parameter is only 2.4B which is much lower than other 7B dense models, and we adopt the modeling method of parallel generation of speech-text, the inference delay will be greatly reduced, and the delay of the most end-to-end speech interactions is within 500ms.
   
-
-
-## 📌 Exhibition
-
-### Inference Acceleration
-Model inference speed under different inference modes.
-
-<p align="center">
-  <img src="./asset/qa_speed.gif" alt="demogif" width="48%" style="display: inline-block; margin-right: 2%;">
-  <img src="./asset/tts_speed.gif" alt="second_gif" width="48%" style="display: inline-block;">
-</p>
-
-### Time to Generate the First Audio Segment In Streaming Inference
-<div align="center">
-  <img width="400" alt="first audio generate time" src="https://github.com/user-attachments/assets/165f943e-ac53-443f-abba-e5eb1e0c0f40" />
-</div>
-
-
-
-
-
-### Generated Audio Case
-
-
-
-> 打南边来了个哑巴，腰里别了个喇叭；打北边来了个喇嘛，手里提了个獭犸。  
-> 提着獭犸的喇嘛要拿獭犸换别着喇叭的哑巴的喇叭；别着喇叭的哑巴不愿拿喇叭换提着獭玛的喇嘛的獭犸。  
-> 不知是别着喇叭的哑巴打了提着獭玛的喇嘛一喇叭；还是提着獭玛的喇嘛打了别着喇叭的哑巴一獭玛。  
-> 喇嘛回家炖獭犸；哑巴嘀嘀哒哒吹喇叭。
-
-https://github.com/user-attachments/assets/38da791f-5d72-4d9c-a9b2-cec97c2f2b2b
-
-
----
-
-> To be or not to be--to live intensely and richly,
-> merely to exist, that depends on ourselves. Let widen and intensify our relations.   
-> While we live, let live!  
-
-https://github.com/user-attachments/assets/fd478065-4041-4eb8-b331-0c03b304d853
-
-
----
-
-> The hair has been so little, don't think about it, go to bed early, for your hair. Good night!
-
-https://github.com/user-attachments/assets/4cfe4742-e237-42bd-9f17-7935b2285799
-
-
----
-> 两个黄鹂鸣翠柳，
-> 一行白鹭上青天。  
-> 窗含西岭千秋雪，
-> 门泊东吴万里船。
-
-https://github.com/user-attachments/assets/382620ee-bb2a-488e-9e00-71afd2342b56
-
-
----
 
 
 
