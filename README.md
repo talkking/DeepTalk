@@ -1,7 +1,7 @@
 # DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE
 
 <p align="center">
-    <img src="asset/vita-audio_logo.jpg" width="60%" height="60%">
+    <img src="asset/deeptalk.png" width="60%" height="60%">
 </p>
 
 
