@@ -1,8 +1,5 @@
-# DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE
+# <img src="asset/deeptalk.png" width="60%" height="60%">DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE
 
-<p align="center">
-    <img src="asset/deeptalk.png" width="60%" height="60%">
-</p>
 
 
 <font size=7><div align='center' > [[📖 DeepTalk Paper](https://openreview.net/pdf?id=dXwFgSRVix)] [[🤖 Model Weight](https://huggingface.co/shaohang/DeepTalk)]  </div></font>
