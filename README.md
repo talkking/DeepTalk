@@ -5,7 +5,7 @@
 </p>
 
 
-<font size=7><div align='center' > [[📖 DeepTalk Paper](https://openreview.net/pdf?id=dXwFgSRVix)] [[🤖 Model Weight]([https://huggingface.co/collections/VITA-MLLM/vita-audio-680f036c174441e7cdf02575](https://huggingface.co/shaohang/DeepTalk))]  </div></font>
+<font size=7><div align='center' > [[📖 DeepTalk Paper](https://openreview.net/pdf?id=dXwFgSRVix)] [[🤖 Model Weight](https://huggingface.co/shaohang/DeepTalk)]  </div></font>
 
 
 
