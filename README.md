@@ -45,6 +45,7 @@
 
 ## 📈 Experimental Results
 - **LLM benchmark**.
+  
   <img width="543" alt="Clipboard_Screenshot_1750646258" src="https://github.com/user-attachments/assets/65cef43b-f991-4cb3-9b5b-3208f837f607" />
 
 - **Comparison of Spoken Question Answering**.
