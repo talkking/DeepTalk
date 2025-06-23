@@ -1,5 +1,3 @@
-# <img src="assets/deeptalk.png" width="5%" height="5%">DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE
-
 
 
 <font size=7><div align='center' > [[📖 DeepTalk Paper](https://openreview.net/pdf?id=dXwFgSRVix)] [[🤖 Model Weight](https://huggingface.co/shaohang/DeepTalk)]  </div></font>
@@ -139,74 +137,71 @@ pip install -r requirements.txt
 ```
 
 ## 🎲 Training
+Three types of model training are supported, deeptalk, moextend, puremoe.
 
 
-The following tutorial will take `VITA-Audio-Boost` as an example.
+The following tutorial will take `DeepTalk` as an example.
 
-- To train `VITA-Audio-Balance` and other variants, you should modify the `text-audio-interval-ratio`.
-
-  VITA-Audio-Boost:
-  ```
-  --text-audio-interval-ratio 1 10 4 10 \
-  ```
-
-  VITA-Audio-Balance:
-  ```
-  --text-audio-interval-ratio 1 4 3 8 4 10 \
-  ```
-
-- To train `VITA-Audio-Plus-*`, you should use the script like `scripts/deepspeed/sts_qwen25/finetune_sensevoice_glm4voice...`
 
 ### Stage-1 (Audio-Text Alignment)
 
 ```
-bash scripts/deepspeed/sts_qwen25/finetune_glm4voice_stage1.sh 8192 `date +'%Y%m%d_%H%M%S'`
+bash run_scripts/train/alignment_s1.sh
 ```
 
 The above script may need some adjustments.
 
-- Set `ROOT_PATH` to your code root folder.
-- Set `LOCAL_ROOT_PATH` to a temporary code root folder.
+- Set `MODEL_NAME_OR_PATH` and `AUDIO_ENCODER` to your base model folder.
+- Set `WENET_DIR ` to your dataset folder.
 - Modify other variables as needed for your environment.
 
-### Stage-2 (Single MCTP Module Training)
+### Stage-2 (Unimodal Expert Specialization Training)
+
+#### Stage-2.1 (Audio Expert Specialization Training)
 
 ```
-bash scripts/deepspeed/sts_qwen25/finetune_glm4voice_mtp1_stage1.sh 8192 `date +'%Y%m%d_%H%M%S'`
+bash run_scripts/train/deeptalk/deeptalk_s2p1.sh
 ```
+#### Stage-2.2 (Text Expert Specialization Training)
+
+```
+bash run_scripts/train/deeptalk/deeptalk_s2p2.sh
+```
+
+
+### Stage-3 (Joint Training of Modality Experts)
+
+```
+bash run_scripts/train/deeptalk/deeptalk_s3.sh
+```
+
+### Stage-rl (Audio Generation with Reinforcement Learning)
 
 The above script may need some adjustments.
 
-- Set `ROOT_PATH` to your code root folder.
-- Set `LOCAL_ROOT_PATH` to a temporary code root folder.
-- Set `MODEL_NAME_OR_PATH` to the path of the model trained in Stage 1.
-- Modify other variables as needed for your environment.
-
-### Stage-3 (Multiple MCTP Modules Training)
-
+- Set `audio_dpo_data` to your audio dpo dataset folder.
+- audio dpo format as follows:
+```jsonc
+[
+  {
+    "role": "user",
+    "content": "Repeat the sentence inside the brackets without any explanation. \n【and a couched lion with shaggy head resting upo
+his fore paws we watched her press beads of proper size and color into the eye sockets skilfully finish the base upon which each fig
+e lay】"
+  },
+  {
+    "role": "assistant",
+    "content": "and a couched lion with shaggy head resting upon his fore paws we watched her press beads of proper size and color i
+o the eye sockets skilfully finish the base upon which each figure lay",
+    "win_wavpath": "/mnt/data/alanhshao/vita-e2e/datasets/dpo_data/win/2691-156755-0005.wav",
+    "win_codec": "/mnt/data/alanhshao/vita-e2e/datasets/dpo_data/win/2691-156755-0005.snac",
+    "win_reward": 0.17142857142857143,
+    "lose_wavpath": "/mnt/data/alanhshao/vita-e2e/datasets/dpo_data/lose/2691-156755-0005.wav",
+    "lose_codec": "/mnt/data/alanhshao/vita-e2e/datasets/dpo_data/lose/2691-156755-0005.snac",
+    "lose_reward": 0.3142857142857143
+  }
+]
 ```
-bash scripts/deepspeed/sts_qwen25/finetune_glm4voice_mtp10_stage1.sh 8192 `date +'%Y%m%d_%H%M%S'`
-```
-
-The above script may need some adjustments.
-
-- Set `ROOT_PATH` to your code root folder.
-- Set `LOCAL_ROOT_PATH` to a temporary code root folder.
-- Set `MODEL_NAME_OR_PATH` to the path of the model trained in Stage 2.
-- Modify other variables as needed for your environment.
-
-### Stage-4 (Supervised Fine-tuning)
-
-```
-bash scripts/deepspeed/sts_qwen25/finetune_glm4voice_mtp10_stage2.sh 2048 `date +'%Y%m%d_%H%M%S'`
-```
-
-The above script may need some adjustments.
-
-- Set `ROOT_PATH` to your code root folder.
-- Set `LOCAL_ROOT_PATH` to a temporary code root folder.
-- Set `MODEL_NAME_OR_PATH` to the path of the model trained in Stage 3.
-- Modify other variables as needed for your environment.
 
 
 
