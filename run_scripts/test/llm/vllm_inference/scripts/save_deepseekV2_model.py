@@ -6,7 +6,7 @@ import json
 
 # 假设您已经定义并加载了模型
 # model = YourModelClass()
-sys.path.append("/mnt/data/alanhshao/vita-e2e")
+sys.path.append(".")
 from src.model import LUCYDeepseekV2ForCausalLM as VITADeepseekV2ForCausalLM, LUCYDeepseekV2Config as VITADeepseekV2Config
 #model = VITAQwen2ForCausalLM.from_pretrained("/mnt/data/hetinggao/vita-e2e/outputs/vita_qwen2_s3_zh_parallel_tte-100124-134115/checkpoint-72000")
 model = VITADeepseekV2ForCausalLM.from_pretrained(sys.argv[1])
