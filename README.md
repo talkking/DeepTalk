@@ -18,7 +18,6 @@
 
 
 - [Highlights](#-highlights)
-- [Models](#-models)
 - [Experimental Results](#-experimental-results)
 - [Training](#-training)
 - [Evaluation](#-evaluation)
