@@ -44,7 +44,7 @@
 
 
 ## 📈 Experimental Results
-- **LLM benchmark**.
+- **Evaluation on LLM benchmark**.
   
   <img width="543" alt="Clipboard_Screenshot_1750646258" src="https://github.com/user-attachments/assets/65cef43b-f991-4cb3-9b5b-3208f837f607" />
 
@@ -54,12 +54,12 @@
 
 
 
-- **Comparison of Text to Speech**.
+- **Evaluation on Text to Speech**.
 
   <img width="280" alt="Clipboard_Screenshot_1750646311" src="https://github.com/user-attachments/assets/4ba26b02-70ec-45d8-a268-0e320371fff3" />
 
 
-- **Comparison of Automatic Speech Recognition**.
+- **Evaluation on Automatic Speech Recognition**.
 
   <img width="540" alt="Clipboard_Screenshot_1750646334" src="https://github.com/user-attachments/assets/87b22016-9c32-41a2-a6a5-c95d88ead5bd" />
 
@@ -85,13 +85,15 @@ pip install -r requirements.txt
 {
   "conversations": [
     {
-      "content": "<|audio|>",
+      "content": "水以什么类型的结构转动涡轮机？选项有：水力发电坝、水坑、污水泵、地下溪流、水槽。为什么人类会选择“水力发电坝”来回答这个问题？",
       "wavpath": "path/to/AudioQA-1M/q.wav",
+      "codec": "path/to/AudioQA-1M/q.codec",
       "role": "user"
     },
     {
-      "content": "好的，这样排列更合理：这些生物废弃物如鸡蛋壳、蛤壳、贻贝壳比其他工业废渣更有价值。研究表明，它们在能源、材料、环境保护等领域有广泛应用。高效利用贝壳能提高资源利用效率，减少废弃物，减轻环境负担。特别是在这些领域中，鸡蛋壳因为含有丰富的钙元素，被用于制造医药品和肥料。\n<|audio|>",
+      "content": "人类会选择“水力发电坝”来回答这个问题，因为水力发电坝是专门设计来利用水的力量旋转涡轮机发电的。其他选项，比如水坑、污水泵、地下溪流或水槽，都不是为了发电设计的。水力发电坝的用途和问题中的水轮机机制最匹配，所以是正确答案。",
       "wavpath": "path/to/AudioQA-1M/a.wav",
+      "codec": "path/to/AudioQA-1M/a.codec",
       "role": "assistant"
     }
   ]
@@ -106,15 +108,13 @@ pip install -r requirements.txt
   "messages": [
     {
       "content": "Convert the speech to text.\n<|audio|>",
+      "wavpath": "path/to/wav/q.wav",
       "role": "user"
     },
     {
       "content": "没有跟大家说是在做什么",
       "role": "assistant"
     }
-  ],
-  "audios": [
-    "datasets/wenet-e2e/wenetspeech/data/cuts_L_fixed.00000000/X00/X0000016296_135343932_S00019.wav"
   ]
 }
 ```
@@ -131,11 +131,9 @@ pip install -r requirements.txt
     },
     {
       "content": "<|audio|>",
+      "wavpath": "path/to/wav/a.wav",
       "role": "assistant"
     }
-  ],
-  "audios": [
-    "datasets/Wenetspeech4TTS/WenetSpeech4TTS/Premium/WenetSpeech4TTS_Premium_9/wavs/X0000001735_50639692_S00035.wav"
   ]
 }
 ```
