@@ -169,13 +169,13 @@ bash run_scripts/train/deeptalk/deeptalk_s2p2.sh
 ```
 
 
-### Stage-3 (Joint Training of Modality Experts)
+#### Stage-3 (Joint Training of Modality Experts)
 
 ```
 bash run_scripts/train/deeptalk/deeptalk_s3.sh
 ```
 
-### Stage-rl (Audio Generation with Reinforcement Learning)
+#### Stage-rl (Audio Generation with Reinforcement Learning)
 
 The above script may need some adjustments.
 
