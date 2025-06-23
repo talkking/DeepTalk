@@ -11,7 +11,7 @@
 
 
 
-* **`2025.06.21`** 🌟 We are proud to launch DeepTalk, a native end-to-end large speech model with MoE architecture.
+* **`2025.06.23`** 🌟 We are proud to launch DeepTalk, a native end-to-end large speech model with MoE architecture.
 
 
 ## 📄 Contents <!-- omit in toc -->
@@ -233,8 +233,6 @@ bash run_scripts/test/asr/infer_asr.sh
 ```
 bash run_scripts/test/tts/infer_tts_ngpu.sh
 ```
-
-
 
 
 
