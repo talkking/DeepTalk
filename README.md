@@ -28,9 +28,9 @@
 
 ## ✨ Highlights
 
-- **High IQ, high EQ** Solves the catastrophic forgetting problem of native multimodality. Maximizes the language generalization capabilities of the original text LLM.
-- **New Architecture** The first model for end-to-end voice interaction based on MoE architecture.
-- **Low Latency** Based on the MoE architecture, since the activation parameter is only 2.4B which is much lower than other 7B dense models, and we adopt the modeling method of parallel generation of speech-text, the inference delay will be greatly reduced, and the delay of the most end-to-end speech interactions is within 500ms.
+- **High IQ, high EQ**. Solves the catastrophic forgetting problem of native multimodality. Maximizes the language generalization capabilities of the original text LLM.
+- **New Architecture**. The first model for end-to-end voice interaction based on MoE architecture.
+- **Low Latency**. Based on the MoE architecture, since the activation parameter is only 2.4B which is much lower than other 7B dense models, and we adopt the modeling method of parallel generation of speech-text, the inference delay will be greatly reduced, and the delay of the most end-to-end speech interactions is within 500ms.
   
 
 
@@ -39,78 +39,41 @@
 
 - [x] Release training code and inference code.
 - [x] Release checkpoints.
-- [x] Release VITA-Audio-Plus.
 - [ ] Release the cleaned open-source data JSON and audio.
 
 
-## 🔔 Models
-
-| Model                   | LLM Size | Huggingface Weights                                           |
-|-------------------------|----------|---------------------------------------------------------------|
-| VITA-Audio-Boost        | 7B       | https://huggingface.co/VITA-MLLM/VITA-Audio-Boost             |
-| VITA-Audio-Balance      | 7B       | https://huggingface.co/VITA-MLLM/VITA-Audio-Balance           |
-| VITA-Audio-Plus-Vanilla | 7B       | https://huggingface.co/VITA-MLLM/VITA-Audio-Plus-Vanilla      |
-| VITA-Audio-Plus-Boost| 7B       | https://huggingface.co/VITA-MLLM/VITA-Audio-Plus-Boost     |
-
 
 ## 📈 Experimental Results
+- **LLM benchmark**.
+  <img width="543" alt="Clipboard_Screenshot_1750646258" src="https://github.com/user-attachments/assets/65cef43b-f991-4cb3-9b5b-3208f837f607" />
+
 - **Comparison of Spoken Question Answering**.
 
-![Clipboard_Screenshot_1746531780](https://github.com/user-attachments/assets/3adcad15-0333-4b92-bfdf-b753b330a3e2)
+  <img width="560" alt="Clipboard_Screenshot_1750646291" src="https://github.com/user-attachments/assets/54d6bbb5-3269-4c38-9182-eeba8150bd37" />
+
 
 
 - **Comparison of Text to Speech**.
 
-![image](https://github.com/user-attachments/assets/09cf8fd3-d7a5-4b77-be49-5a0ace308f3f)
+  <img width="280" alt="Clipboard_Screenshot_1750646311" src="https://github.com/user-attachments/assets/4ba26b02-70ec-45d8-a268-0e320371fff3" />
 
 
 - **Comparison of Automatic Speech Recognition**.
 
-![Clipboard_Screenshot_1746532039](https://github.com/user-attachments/assets/d950cae0-c065-4da9-b37a-a471d28158a0)
+  <img width="540" alt="Clipboard_Screenshot_1750646334" src="https://github.com/user-attachments/assets/87b22016-9c32-41a2-a6a5-c95d88ead5bd" />
 
-![Clipboard_Screenshot_1746532022](https://github.com/user-attachments/assets/929f45cd-693a-4ff6-af73-ceec6e875706)
-
-
-
-- **Effectiveness of Inference Acceleration**.
-
-
-![Clipboard_Screenshot_1746532167](https://github.com/user-attachments/assets/ad8b9e90-cd3c-4968-8653-998811a50006)
-
-![Image](https://github.com/user-attachments/assets/4aa5db8c-362d-4152-8090-92292b9a84c0)
 
 
 
 ## 📔 Requirements and Installation
 
-### Prepare Environment
-```
-docker pull shenyunhang/pytorch:24.11-py3_2024-1224
-```
-
 ### Get the Code
 ```
-git clone https://github.com/VITA-MLLM/VITA-Audio.git
-cd VITA-Audio
-git submodule update --init --recursive
-pip install -r requirements_ds_gpu.txt
-pip install -e .
+git clone https://github.com/talkking/DeepTalk.git
+cd DeepTalk
+pip install -r requirements.txt
 ```
 
-### Prepare Pre-trained Weight
-
-#### LLM
-
-- Download the LLM from https://huggingface.co/Qwen/Qwen2.5-7B-Instruct.
-- Put it into '../models/Qwen/Qwen2.5-7B-Instruct/'
-
-#### Audio Encoder and Audio Decoder
-
-- Download the Audio Encoder from https://huggingface.co/THUDM/glm-4-voice-tokenizer.
-- Put it into '../models/THUDM/glm-4-voice-tokenizer'
-
-- Download the Audio Decoder from https://huggingface.co/THUDM/glm-4-voice-decoder.
-- Put it into '../models/THUDM/glm-4-voice-decoder'
 
 
 ### Data Format
@@ -119,19 +82,17 @@ pip install -e .
 
 ```jsonc
 {
-  "messages": [
+  "conversations": [
     {
       "content": "<|audio|>",
+      "wavpath": "path/to/AudioQA-1M/q.wav",
       "role": "user"
     },
     {
       "content": "好的，这样排列更合理：这些生物废弃物如鸡蛋壳、蛤壳、贻贝壳比其他工业废渣更有价值。研究表明，它们在能源、材料、环境保护等领域有广泛应用。高效利用贝壳能提高资源利用效率，减少废弃物，减轻环境负担。特别是在这些领域中，鸡蛋壳因为含有丰富的钙元素，被用于制造医药品和肥料。\n<|audio|>",
+      "wavpath": "path/to/AudioQA-1M/a.wav",
       "role": "assistant"
     }
-  ],
-  "audios": [
-    "datasets/VITA-MLLM/AudioQA-1M/QA_1450K_question_tar/question_shuf_part_8/wav/000000200014510ac1fd776006fc66b36f7f3cda76_question.wav",
-    "datasets/VITA-MLLM/AudioQA-1M/QA_1450K_answer_part1_tar/answer_part1_shuf_part_3/wav/000000200114510ac1fd776006fc66b36f7f3cda76_F10.wav"
   ]
 }
 ```
