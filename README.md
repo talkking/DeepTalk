@@ -241,13 +241,10 @@ If you find our work helpful for your research, please consider citing the follo
 
 
 ```bibtex
-@misc{,
-      title={DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE}, 
-      author={Hang Shao, Heting Gao, Yunhang Shen, Jiawei Chen, lijiang Li, Zuwei Long, Bo Tong, Ke Li, Xing Sun},
-      year={2025},
-      eprint={xxx},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={xxx}, 
+@article{shao2025deeptalk,
+  title={DeepTalk: Towards Seamless and Smart Speech Interaction with Adaptive Modality-Specific MoE},
+  author={Shao, Hang and Gao, Heting and Shen, Yunhang and Chen, Jiawei and Li, Lijiang and Long, Zuwei and Tong, Bo and Li, Ke and Sun, Xing},
+  journal={arXiv preprint arXiv:2506.21864},
+  year={2025}
 }
 ```
